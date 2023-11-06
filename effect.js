@@ -180,6 +180,7 @@ $('document').ready(function(){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
 				});
+				Run();
 				
 			}
 			else{
@@ -252,7 +253,7 @@ function newPass(shell) {
 }
 
 var lastRun = 0;
-Run();
+
 function Run() {
 
   var dt = 1;
