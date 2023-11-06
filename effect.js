@@ -195,7 +195,7 @@ $('document').ready(function(){
 	});
 });
 
-var c = document.getElementsByClassName("container");
+var c = document.getElementById("Canvas");
 var ctx = c.getContext("2d");
 
 var cwidth, cheight;
