@@ -261,7 +261,7 @@ function Run() {
 	lastRun = performance.now();
 
   //ctx.clearRect(0, 0, cwidth, cheight);
-	ctx.fillStyle = "rgba(0,0,0,0)";
+	ctx.fillStyle = "#FFDAB9";
 	ctx.fillRect(0, 0, cwidth, cheight);
 
   if ((shells.length < 10) && (Math.random() > 0.96)) { newShell(); }
